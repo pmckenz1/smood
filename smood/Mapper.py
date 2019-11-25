@@ -12,7 +12,7 @@ from .Maxent import Maxent
 
 class Mapper:
     """
-    The object central to `smood` (species mapping on occurrence data).
+    The object central to `smood` (some mapping of occurrence data).
     """
     def __init__(
         self,
@@ -26,7 +26,7 @@ class Mapper:
         worldclim_dir=None,
         ):
         """
-        The object central to `smood` (species mapping on occurrence data).
+        The object central to `smood` (some mapping of occurrence data).
         Users supply a species name, latitude range, and longitude range, and
         then they can run automated maxent sdms over this.
 
