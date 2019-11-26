@@ -59,7 +59,7 @@ mapobj.maxent_image
 
 
 
-### we can isolate the occurrence data
+### we can look at the occurrence data by itself
 
 
 ```python
@@ -69,22 +69,9 @@ mapobj.lons
 
 
 
-    array([-87.822704, -87.893968, -88.075241, ..., -83.78194 , -81.0625  ,
-           -83.19139 ])
-
-
-
-
 ```python
 mapobj.lats
 ```
-
-
-
-
-    array([42.39605 , 41.67832 , 40.525758, ..., 41.65722 , 39.92444 ,
-           40.54833 ])
-
 
 
 ### we can also work with the density matrix
