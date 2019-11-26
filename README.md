@@ -17,9 +17,9 @@
 `git clone https://github.com/pmckenz1/smood.git`  
 `pip install smood`
 
-## Demonstration of `smood`
+## Demonstration
 
-### With `smood`, we just have to name 1) a species and 2) a lat/lon bounding box, and we can collect gbif observations and push them through maxent to make fun maps.
+### We just have to provide 1) a species name and 2) lat/lon coordinates for a bounding box. `smood` then automatically collects gbif observations and pushes them through maxent to make fun maps.
 
 
 ```python
