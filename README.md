@@ -2,6 +2,10 @@
 
 **s**imple **m**apping **o**f **o**ccurrence **d**ata: a package for making species distribution maps with Maxent.
 
+## Feature requests?
+
+`smood` is in its earliest stages right now and therefore is very simple. While simplicity is one of my goals with `smood`, I also want it to be *flexible* enough to be useful for a bunch of types of projects. Please don't hesitate to raise an issue on Github if there's something else you want smood to do!
+
 ## Maxent
 
 [Maxent](https://biodiversityinformatics.amnh.org/open_source/maxent/) is a java application that models the suitability of grid cells in a landscape using observational data (in our case, from [GBIF](https://www.gbif.org/)) and environmental background layers (in our case, from [WorldClim](https://www.worldclim.org/)).
