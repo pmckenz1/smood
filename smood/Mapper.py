@@ -57,7 +57,7 @@ class Mapper:
 
         self.profile = {}
         if sp_name:
-            self.profile['spname'] = 'Monarda fistulosa'
+            self.profile['spname'] = sp_name
         else:
             self.profile['spname'] = None
 
