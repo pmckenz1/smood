@@ -63,6 +63,7 @@ mapobj.maxent_image
 
 
 ```python
+# list of longitudes
 mapobj.lons
 ```
 
@@ -70,11 +71,12 @@ mapobj.lons
 
 
 ```python
+# list of latitudes
 mapobj.lats
 ```
 
 
-### we can also work with the density matrix
+### we can also work directly with the density matrix
 
 
 ```python
@@ -85,9 +87,9 @@ smood.plot_density(density_mat=mapobj.density_mat)
 ![png](imgfiles/output_26_0.png)
 
 
-### we can set a threshold on this matrix over which everything is considered "filled" and under which everything is considered "empty"
+### if we want, we can set a threshold on this matrix over which everything is considered "filled" and under which everything is considered "empty"
 
-### start with a high threshold:
+#### start with a high threshold:
 
 
 ```python
@@ -99,7 +101,7 @@ smood.plot_threshold(density_mat=mapobj.density_mat,
 ![png](imgfiles/output_29_0.png)
 
 
-### now try with a lower threshold:
+#### now try with a lower threshold:
 
 
 ```python
