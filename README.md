@@ -2,15 +2,15 @@
 
 **s**imple **m**apping **o**f **o**ccurrence **d**ata: a package for making species distribution maps with Maxent.
 
-Maxent is great, read more here:
+Maxent is great, read more here:  
 Steven J. Phillips, Miroslav Dudík, Robert E. Schapire. [Internet] Maxent software for modeling species niches and distributions (Version 3.4.1). Available from url: http://biodiversityinformatics.amnh.org/open_source/maxent/. Accessed on 2019-11-25.
 
-# Installation:
+## Installation:
 
-`git clone https://github.com/pmckenz1/smood.git`
+`git clone https://github.com/pmckenz1/smood.git`  
 `pip install smood`
 
-# Demonstration of `smood`
+## Demonstration of `smood`
 
 ### With `smood`, we just have to name 1) a species and 2) a lat/lon bounding box, and we can collect gbif observations and push them through maxent to make fun maps.
 
@@ -62,92 +62,6 @@ mapobj.profile
       18,
       19]}
 
-
-
-### or we can leave it for later:
-
-
-```python
-# define our object
-mapobj = smood.Mapper()
-```
-
-
-```python
-mapobj.profile
-```
-
-
-
-
-    {'spname': None,
-     'ymin': None,
-     'ymax': None,
-     'xmin': None,
-     'xmax': None,
-     'worldclim_layers': [1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19]}
-
-
-
-
-```python
-mapobj.profile['spname'] = "Monarda fistulosa"
-mapobj.profile['ymin'] = 19.0
-mapobj.profile['ymax'] = 52.0
-mapobj.profile['xmin'] = -125.0
-mapobj.profile['xmax'] = -68.0
-```
-
-
-```python
-mapobj.profile
-```
-
-
-
-
-    {'spname': 'Monarda fistulosa',
-     'ymin': 19.0,
-     'ymax': 52.0,
-     'xmin': -125.0,
-     'xmax': -68.0,
-     'worldclim_layers': [1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19]}
 
 
 
