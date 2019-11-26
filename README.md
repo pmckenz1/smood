@@ -4,7 +4,7 @@
 
 ## Feature requests?
 
-`smood` is in its earliest stages right now and therefore is very simple. While simplicity is one of my goals with `smood`, I also want it to be *flexible* enough to be useful for a bunch of types of projects. Please don't hesitate to raise an issue on Github if there's something else you want smood to do!
+`smood` is in its earliest stages right now and therefore is very simple. While simplicity is one of my goals, I also want the package to be *flexible* enough to be useful for a bunch of types of projects. Please don't hesitate to raise an issue on Github if there's something else you want `smood` to do!
 
 ## Maxent
 
