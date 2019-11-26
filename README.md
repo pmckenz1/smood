@@ -6,6 +6,8 @@
 
 [Maxent](https://biodiversityinformatics.amnh.org/open_source/maxent/) is a java application that models the suitability of grid cells in a landscape using observational data (in our case, from [GBIF](https://www.gbif.org/)) and environmental background layers (in our case, from [WorldClim](https://www.worldclim.org/)).
 
+#### Citation
+
 Steven J. Phillips, Miroslav Dudík, Robert E. Schapire. [Internet] Maxent software for modeling species niches and distributions (Version 3.4.1). Available from url: http://biodiversityinformatics.amnh.org/open_source/maxent/. Accessed on 2019-11-25.
 
 ## Installation
@@ -46,7 +48,7 @@ Although this writes to disk, everything that is written is then cleaned up unle
 mapobj.run()
 ```
 
-## results:
+## results
 
 ### raw png output from maxent (including occurrence data and the prediction densities)
 
