@@ -20,7 +20,6 @@ setup(
     author_email="p.mckenzie@columbia.edu",
     install_requires=[
         "numpy>=1.9",
-        "os",
         "subprocess",
         "pygbif",
         "rasterio",
